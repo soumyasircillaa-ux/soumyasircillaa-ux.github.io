@@ -168,3 +168,32 @@ section h2{
     margin-bottom:40px;
     color:#38bdf8;
 }
+
+/* ===========================
+   Skills Section
+=========================== */
+
+.skill-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+    transition:.4s;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    background:#38bdf8;
+    color:#111827;
+    cursor:pointer;
+}
