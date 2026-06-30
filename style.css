@@ -157,9 +157,9 @@ header{
 /* Section */
 
 section{
-    width:90%;
-    margin:auto;
-    padding:80px 0;
+    max-width:1200px;
+    margin:0 auto;
+    padding:90px 40px;
 }
 
 section h2{
