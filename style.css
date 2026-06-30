@@ -174,12 +174,10 @@ section h2{
 =========================== */
 
 .skill-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-    gap:25px;
-    margin-top:40px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
 }
-
 .skill-card{
     background:#1e293b;
     padding:30px;
