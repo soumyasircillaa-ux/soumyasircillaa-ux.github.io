@@ -5,10 +5,6 @@
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
 }
-padding:90px 0;
-margin-bottom:30px;
-gap:30px;
-border-radius:15px;
 
 html{
     scroll-behavior:smooth;
@@ -33,12 +29,10 @@ header{
 }
 
 .navbar{
-    width:90%;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 0;
+max-width:1200px;
+width:100%;
+margin:auto;
+padding:20px 40px;
 }
 
 .logo{
