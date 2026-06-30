@@ -274,18 +274,60 @@ header{
     transform:scale(1.03);
 }
 
-/* Section */
+/* ==========================================
+   ABOUT SECTION
+========================================== */
 
-section{
-    max-width:1200px;
-    margin:0 auto;
-    padding:90px 40px;
+.about-container{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:50px;
+    align-items:center;
 }
 
-section h2{
-font-size:42px;
-margin-bottom:60px;
-text-align:center;
+.about-text p{
+    color:#cbd5e1;
+    font-size:18px;
+    line-height:1.9;
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+.about-info{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.info-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.35s;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.info-card:hover{
+    transform:translateY(-8px);
+    background:#38bdf8;
+    color:#111827;
+}
+
+.info-card h3{
+    margin-bottom:10px;
+    color:#38bdf8;
+    font-size:22px;
+}
+
+.info-card:hover h3{
+    color:#111827;
+}
+
+.info-card p{
+    font-size:18px;
+    font-weight:600;
 }
 /* ===========================
    Skills Section
