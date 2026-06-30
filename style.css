@@ -231,3 +231,143 @@ section h2{
 .timeline-item p{
     color:#cbd5e1;
 }
+
+/* ===========================
+   About Section
+=========================== */
+
+#about p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:#cbd5e1;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ===========================
+   Projects
+=========================== */
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:35px;
+    margin-top:40px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:.4s;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(56,189,248,.25);
+}
+
+.project-card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
+
+.project-card a{
+    display:inline-block;
+    margin-top:10px;
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.project-card a:hover{
+    color:white;
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+#contact a{
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:600;
+}
+
+#contact a:hover{
+    color:white;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+    background:#111827;
+    padding:30px;
+    text-align:center;
+    margin-top:60px;
+    color:#94a3b8;
+}
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.hero-image img{
+    width:280px;
+    height:280px;
+}
+
+.hero-text h1{
+    font-size:42px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+.skill-grid{
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+}
+
+}
