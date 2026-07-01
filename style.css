@@ -69,12 +69,10 @@ a{
     color:inherit;
 }
 
-img{
-    max-width:100%;
-    height:auto;
-    display:block;
+section{
+    min-height:100vh;
+    padding:10rem 10%;
 }
-
 ::selection{
     background:var(--primary);
     color:var(--bg-color);
