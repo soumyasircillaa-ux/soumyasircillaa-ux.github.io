@@ -7,7 +7,23 @@ Transforming Data into Actionable Business Insights
 </h3>
 
 ---
+# Connect With Me
 
+<p align="center">
+
+<a href="mailto:Soumyasircillaa@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/soumya-siricilla-0869ab289">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/soumyasircillaa-ux">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a> 
+
+---
 # About Me
 
 I am a passionate **Data Analyst** and **Business Analyst** with hands-on experience in transforming complex datasets into meaningful insights through **SQL, Python, Power BI, Tableau, Excel, and Business Analytics**.
@@ -133,10 +149,10 @@ Developed an interactive Power BI dashboard to evaluate employee learning outcom
 </a>
 
 </p>
----
+
 
 <p align="center">
 
-*"Data tells a story. My goal is to uncover it and translate it into meaningful business decisions."*
+*"Thank you for visting my profile."*
 
 </p>
