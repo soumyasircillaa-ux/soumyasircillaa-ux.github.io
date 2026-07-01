@@ -136,6 +136,6 @@ Developed an interactive Power BI dashboard to evaluate employee learning outcom
 
 <p align="center">
 
-*"Thank you for visting my profile."*
+*"Thank you for visiting my profile."*
 
 </p>
