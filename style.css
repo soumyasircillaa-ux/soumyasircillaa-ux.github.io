@@ -60,11 +60,20 @@ body{
     overflow-x:hidden;
     min-height:100vh;
 }
+
+/* ===========================
+   COMMON ELEMENTS
+=========================== */
+
 a{
     color:inherit;
 }
 
-
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
 
 /* ===========================
    SECTION
@@ -74,7 +83,7 @@ section{
 
     min-height:100vh;
 
-    padding:100px 10%;
+    padding:10rem 10%;
 
 }
 
@@ -192,7 +201,7 @@ p{
 
     width:100%;
 
-    padding:20px 10%;
+    padding:2rem 10%;
 
     display:flex;
 
@@ -240,7 +249,7 @@ p{
 
     display:flex;
 
-    gap:35px;
+    gap:3.5rem;
 
 }
 
@@ -314,7 +323,7 @@ p{
 
 .resume-btn{
 
-    padding:10px 22px;
+    padding:1rem 2.2rem;
 
     background:var(--primary);
 
