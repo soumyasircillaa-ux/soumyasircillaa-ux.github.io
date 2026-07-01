@@ -60,23 +60,10 @@ body{
     overflow-x:hidden;
     min-height:100vh;
 }
-
-/* ===========================
-   GLOBAL ELEMENTS
-=========================== */
-
 a{
     color:inherit;
 }
 
-section{
-    min-height:100vh;
-    padding:10rem 10%;
-}
-::selection{
-    background:var(--primary);
-    color:var(--bg-color);
-}
 
 
 /* ===========================
