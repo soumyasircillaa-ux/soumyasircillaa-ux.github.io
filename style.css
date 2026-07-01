@@ -494,3 +494,18 @@ p{
     box-shadow:var(--shadow);
 
 }
+/* ===========================
+   MEDIA QUERIES
+=========================== */
+
+@media (max-width:991px){
+
+    #menu-icon{
+        display:block;
+    }
+
+    .navbar{
+        display:none;
+    }
+
+}
