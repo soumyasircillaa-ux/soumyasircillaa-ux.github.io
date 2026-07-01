@@ -488,7 +488,9 @@ p{
 
     border:.4rem solid var(--primary);
 
-    box-shadow:var(--shadow);
+    box-shadow:
+0 0 30px rgba(56,189,248,.35),
+0 0 80px rgba(56,189,248,.15);
 
 }
 /* ===========================
