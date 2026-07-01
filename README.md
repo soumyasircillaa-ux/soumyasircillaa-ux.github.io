@@ -130,23 +130,6 @@ Developed an interactive Power BI dashboard to evaluate employee learning outcom
 - Tableau
 - Python for Data Science
 
----
-
-# Connect With Me
-
-<p align="center">
-
-<a href="mailto:Soumyasircillaa@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/soumya-siricilla-0869ab289">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/soumyasircillaa-ux">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
 
 </p>
 
