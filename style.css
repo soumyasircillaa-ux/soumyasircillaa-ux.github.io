@@ -18,6 +18,16 @@
     list-style:none;
 }
 
+/* ===========================
+   HTML
+=========================== */
+
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
+
 
 /* ===========================
    VARIABLES
@@ -46,15 +56,30 @@
 =========================== */
 
 body{
-
     font-family:'Poppins',sans-serif;
-
     background:var(--bg-color);
-
     color:var(--white);
-
     overflow-x:hidden;
+    min-height:100vh;
+}
 
+/* ===========================
+   GLOBAL ELEMENTS
+=========================== */
+
+a{
+    color:inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+::selection{
+    background:var(--primary);
+    color:var(--bg-color);
 }
 
 
