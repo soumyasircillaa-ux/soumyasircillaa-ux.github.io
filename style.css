@@ -366,15 +366,12 @@ p{
 =========================== */
 
 .home{
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    gap:6rem;
-
+    min-height:100vh;
+    padding-top:12rem;
+    gap:8rem;
 }
 
 .home-content{
@@ -485,7 +482,7 @@ p{
 }
 .home-image img{
 
-    width:38rem;
+    width:34rem;
 
     border-radius:50%;
 
