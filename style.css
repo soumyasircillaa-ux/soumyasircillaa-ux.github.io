@@ -666,3 +666,19 @@ p{
         justify-content:center;
     }
 }
+.experience-item{
+    padding:2.5rem;
+    text-align:center;
+}
+
+.experience-item h3{
+    font-size:2.2rem;
+}
+
+.experience-item h4{
+    font-size:1.7rem;
+}
+
+.experience-item p{
+    font-size:1.6rem;
+}
