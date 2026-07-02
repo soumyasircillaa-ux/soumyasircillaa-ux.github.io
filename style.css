@@ -482,11 +482,12 @@ p{
 
 }
 .home-image img{
-    width:340px;
-    height:340px;
+    width:34rem;
+    height:34rem;
     object-fit:cover;
-    border-radius:30px;
-    border:5px solid var(--primary);
+    border-radius:2rem;
+    border:.4rem solid var(--primary);
+    box-shadow:0 0 3rem rgba(56,189,248,.3);
 }
 /* ===========================
    ABOUT
@@ -513,12 +514,13 @@ p{
 }
 
 .about-content{
-    max-width:900px;
-    margin:auto;
+    max-width:85rem;
+    margin:0 auto;
 }
 
 .about-text{
     width:100%;
+    text-align:left;
 }
 
 .about-text h3{
@@ -527,8 +529,8 @@ p{
 }
 
 .about-text p{
-    font-size:1.7rem;
-    line-height:1.9;
+    font-size:1.8rem;
+    line-height:2;
     margin-bottom:2rem;
 }
 
