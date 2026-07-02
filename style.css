@@ -808,6 +808,53 @@ p{
     font-weight:600;
 
 }
+
+/* ===========================
+   CERTIFICATIONS
+=========================== */
+
+.certifications{
+    background:var(--bg-color);
+}
+
+.certificate-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:3rem;
+    margin-top:5rem;
+}
+
+.certificate-card{
+    background:var(--card-bg);
+    border:1px solid var(--border);
+    border-radius:2rem;
+    padding:3rem 2rem;
+    text-align:center;
+    box-shadow:var(--shadow);
+    transition:.3s;
+}
+
+.certificate-card:hover{
+    transform:translateY(-10px);
+    border-color:var(--primary);
+}
+
+.certificate-card i{
+    font-size:5rem;
+    color:var(--primary);
+    margin-bottom:2rem;
+}
+
+.certificate-card h3{
+    font-size:2rem;
+    margin-bottom:1rem;
+    line-height:1.4;
+}
+
+.certificate-card p{
+    font-size:1.6rem;
+    color:var(--text);
+}
 /* ===========================
    MEDIA QUERIES
 =========================== */
