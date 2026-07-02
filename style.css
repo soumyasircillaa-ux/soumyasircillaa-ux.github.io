@@ -674,6 +674,51 @@ p{
 }
 
 /* ===========================
+   WHY WORK WITH ME
+=========================== */
+
+.why-work{
+    background:var(--bg-color);
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:3rem;
+    margin-top:5rem;
+}
+
+.why-card{
+    background:var(--card-bg);
+    border:1px solid var(--border);
+    border-radius:2rem;
+    padding:3rem;
+    text-align:center;
+    transition:.3s;
+    box-shadow:var(--shadow);
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+    border-color:var(--primary);
+}
+
+.why-card i{
+    font-size:5rem;
+    color:var(--primary);
+    margin-bottom:2rem;
+}
+
+.why-card h3{
+    font-size:2.2rem;
+    margin-bottom:1.5rem;
+}
+
+.why-card p{
+    font-size:1.6rem;
+    line-height:1.8;
+}
+/* ===========================
    PROJECTS
 =========================== */
 
