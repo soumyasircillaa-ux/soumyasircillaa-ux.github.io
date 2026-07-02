@@ -127,10 +127,9 @@ Developed an interactive Power BI dashboard to evaluate employee learning outcom
 # Certifications
 
 - SQL (Intermediate) – HackerRank
-- Power BI
-- Tableau
-- Python for Data Science
-
+- NSDC Certification
+- AWS Certification
+- Masters in Data Analytics and Data Science with AI
 
 </p>
 
