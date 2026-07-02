@@ -886,6 +886,57 @@ p{
     color:var(--text);
 
 }
+
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+    background:var(--second-bg);
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:3rem;
+    margin-top:5rem;
+}
+
+.contact-card{
+    background:var(--card-bg);
+    padding:3rem;
+    border-radius:2rem;
+    text-align:center;
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    border-color:var(--primary);
+}
+
+.contact-card i{
+    font-size:5rem;
+    color:var(--primary);
+    margin-bottom:2rem;
+}
+
+.contact-card h3{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+.contact-card a{
+    font-size:1.6rem;
+    color:var(--text);
+    word-break:break-word;
+}
+
+.contact-card a:hover{
+    color:var(--primary);
+}
 /* ===========================
    MEDIA QUERIES
 =========================== */
