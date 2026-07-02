@@ -80,11 +80,7 @@ img{
 =========================== */
 
 section{
-
-    min-height:100vh;
-
-    padding:10rem 10%;
-
+    padding:7rem 10%;
 }
 
 
@@ -499,11 +495,9 @@ p{
 }
 
 .section-title{
-
     text-align:center;
-    font-size:4rem;
-    margin-bottom:6rem;
-
+    font-size:3.8rem;
+    margin-bottom:4rem;
 }
 
 .section-title span{
@@ -528,11 +522,10 @@ p{
 }
 
 .about-text p{
-    font-size:1.8rem;
-    line-height:2;
-    margin-bottom:2rem;
+    font-size:1.7rem;
+    line-height:1.8;
+    margin-bottom:1.5rem;
 }
-
 .about-info{
     display:flex;
     justify-content:center;
@@ -581,13 +574,13 @@ p{
 }
 
 .experience-card{
-    max-width:90rem;
-    margin:0 auto;
+    max-width:900px;
+    gap:2rem;
 }
 
 .experience-item{
     background:var(--card-bg);
-    padding:3rem;
+    padding:2.5rem;
     border-radius:1.5rem;
     border:1px solid var(--border);
     box-shadow:var(--shadow);
@@ -775,7 +768,7 @@ p{
 }
 .project-card h3{
 
-    font-size:2.3rem;
+    font-size:2.5rem;
 
     margin-bottom:1.8rem;
 
@@ -783,9 +776,9 @@ p{
 
 .project-card p{
 
-    font-size:1.6rem;
+    font-size:1.55rem;
 
-    line-height:1.9;
+    line-height:1.8;
 
     margin-bottom:2.5rem;
 
