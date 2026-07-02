@@ -897,17 +897,25 @@ p{
 
 .contact-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns:repeat(2,1fr);
     gap:3rem;
     margin-top:5rem;
 }
 
 .contact-card{
     background:var(--card-bg);
-    padding:3rem;
-    border-radius:2rem;
-    text-align:center;
     border:1px solid var(--border);
+    border-radius:20px;
+    padding:5rem 3rem;
+    min-height:280px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
     box-shadow:var(--shadow);
     transition:.3s;
 }
@@ -918,18 +926,18 @@ p{
 }
 
 .contact-card i{
-    font-size:5rem;
+    font-size:6rem;
     color:var(--primary);
     margin-bottom:2rem;
 }
 
 .contact-card h3{
-    font-size:2rem;
+    font-size:2.4rem;
     margin-bottom:1rem;
 }
 
 .contact-card a{
-    font-size:1.6rem;
+    font-size:1.7rem;
     color:var(--text);
     word-break:break-word;
 }
@@ -998,4 +1006,15 @@ p{
 .experience-item:hover{
     transform:translateY(-8px);
     border-color:var(--primary);
+}
+@media (max-width:991px){
+
+    .certificate-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-grid{
+        grid-template-columns:1fr;
+    }
+
 }
