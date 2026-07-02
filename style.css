@@ -15,6 +15,7 @@
     box-sizing:border-box;
     text-decoration:none;
     list-style:none;
+    transition:0.3s ease;
 }
 /* ===========================
    HTML
@@ -494,10 +495,122 @@ p{
 
 }
 /* ===========================
+   ABOUT
+=========================== */
+
+.about{
+
+    background:var(--second-bg);
+
+}
+
+.section-title{
+
+    text-align:center;
+    font-size:4rem;
+    margin-bottom:6rem;
+
+}
+
+.section-title span{
+
+    color:var(--primary);
+
+}
+
+.about-content{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:6rem;
+
+}
+
+.about-image{
+
+    flex:1;
+    display:flex;
+    justify-content:center;
+
+}
+
+.about-image img{
+
+    width:32rem;
+    border-radius:2rem;
+    box-shadow:var(--shadow);
+
+}
+
+.about-text{
+
+    flex:2;
+
+}
+
+.about-text h3{
+
+    font-size:2.8rem;
+    margin-bottom:2rem;
+
+}
+
+.about-text p{
+
+    font-size:1.7rem;
+    margin-bottom:2rem;
+
+}
+
+.about-info{
+
+    display:flex;
+    gap:2rem;
+    flex-wrap:wrap;
+    margin-top:3rem;
+
+}
+
+.about-info div{
+
+    background:var(--card-bg);
+    padding:2rem;
+    border-radius:1.5rem;
+    min-width:18rem;
+    text-align:center;
+    transition:.3s;
+
+}
+
+.about-info div:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.about-info h4{
+
+    font-size:1.8rem;
+    margin-bottom:1rem;
+
+}
+
+.about-info span{
+
+    color:var(--primary);
+    font-size:1.6rem;
+
+}
+/* ===========================
    MEDIA QUERIES
 =========================== */
 
 @media (max-width:991px){
+
+    html{
+        font-size:55%;
+    }
 
     #menu-icon{
         display:block;
@@ -507,4 +620,27 @@ p{
         display:none;
     }
 
+    .home{
+        flex-direction:column-reverse;
+        text-align:center;
+        gap:5rem;
+    }
+
+    .home-content p{
+        margin:auto;
+    }
+
+    .home-buttons,
+    .social-icons{
+        justify-content:center;
+    }
+
+    .about-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-info{
+        justify-content:center;
+    }
 }
