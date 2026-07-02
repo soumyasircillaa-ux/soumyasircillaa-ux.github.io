@@ -718,14 +718,10 @@ p{
     border-color:var(--primary);
     box-shadow:0 15px 35px rgba(0,0,0,.4);
 }
-.project-icon{
-
-    font-size:3.5rem;
-
-    margin-bottom:2rem;
-
+.project-icon i{
+    font-size:4rem;
+    color:var(--primary);
 }
-
 .project-card h3{
 
     font-size:2.3rem;
