@@ -86,6 +86,7 @@ Power BI • Excel • Power Query • Power Pivot • DAX • Pandas • NumPy 
 Designed a relational database and analytical solution for a ride-booking platform, enabling efficient data management and business reporting. The project focused on uncovering customer behavior, operational trends, revenue performance, and service quality through advanced SQL analytics and business analysis techniques.
 
 **Tech Stack:** SQL • MySQL • ER Modeling • Business Analysis
+
 ---
 
 ## Learning & Development Analytics Dashboard
