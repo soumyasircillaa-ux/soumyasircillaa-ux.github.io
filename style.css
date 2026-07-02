@@ -631,64 +631,48 @@ p{
 =========================== */
 
 .skills{
-    background:var(--bg-color);
+    background: var(--bg-color);
+    padding: 12rem 10%;
+}
+
+.skills .section-title{
+    margin-bottom: 2rem;
 }
 
 .skills-grid{
-
     display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-    gap:2.5rem;
-
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:3rem;
     margin-top:5rem;
-
 }
 
 .skill-box{
-
     background:var(--card-bg);
-
-    padding:3rem;
-
-    border-radius:2rem;
-
+    padding:3.5rem;
+    border-radius:20px;
     border:1px solid var(--border);
-
     box-shadow:var(--shadow);
-
-    transition:.3s;
-
+    transition:.3s ease;
+    min-height:220px;
 }
 
 .skill-box:hover{
-
     transform:translateY(-8px);
-
     border-color:var(--primary);
-
 }
 
 .skill-box h3{
-
     color:var(--primary);
-
-    font-size:2.1rem;
-
-    margin-bottom:1.5rem;
-
+    font-size:2.3rem;
+    margin-bottom:2rem;
 }
 
 .skill-box p{
-
-    font-size:1.6rem;
-
-    line-height:1.9;
-
+    font-size:1.7rem;
+    line-height:2;
     color:var(--text);
-
 }
+
 /* ===========================
    PROJECTS
 =========================== */
