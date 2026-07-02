@@ -818,48 +818,73 @@ p{
 }
 
 .certificate-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-    gap:3.5rem;
+
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:3rem;
+    flex-wrap:wrap;
     margin-top:5rem;
+
 }
 
 .certificate-card{
+
+    width:340px;
+    min-height:320px;
+
     background:var(--card-bg);
     border:1px solid var(--border);
     border-radius:2rem;
+
     padding:4rem 3rem;
+
     text-align:center;
-    box-shadow:var(--shadow);
-    transition:.3s;
-    min-height:280px;
 
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
 }
 
 .certificate-card:hover{
+
     transform:translateY(-10px);
+
     border-color:var(--primary);
+
 }
 
 .certificate-card i{
+
     font-size:6rem;
+
     color:var(--primary);
+
     margin-bottom:2rem;
+
 }
 
 .certificate-card h3{
-    font-size:2.3rem;
+
+    font-size:2.2rem;
+
     line-height:1.5;
+
     margin-bottom:1.5rem;
+
 }
 
 .certificate-card p{
-    font-size:1.8rem;
+
+    font-size:1.7rem;
+
     color:var(--text);
+
 }
 /* ===========================
    MEDIA QUERIES
