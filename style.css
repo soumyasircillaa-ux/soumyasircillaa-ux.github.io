@@ -482,17 +482,13 @@ p{
 
 }
 .home-image img{
-
-    width:34rem;
-
+    width:340px;
+    height:340px;
+    object-fit:cover;
+    object-position:center;
     border-radius:50%;
-
-    border:.4rem solid var(--primary);
-
-    box-shadow:
-0 0 30px rgba(56,189,248,.35),
-0 0 80px rgba(56,189,248,.15);
-
+    border:5px solid var(--primary);
+    box-shadow:0 0 35px rgba(56,189,248,.35);
 }
 /* ===========================
    ABOUT
