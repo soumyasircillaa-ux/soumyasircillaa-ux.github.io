@@ -819,8 +819,8 @@ p{
 
 .certificate-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:3rem;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:3.5rem;
     margin-top:5rem;
 }
 
@@ -828,10 +828,16 @@ p{
     background:var(--card-bg);
     border:1px solid var(--border);
     border-radius:2rem;
-    padding:3rem 2rem;
+    padding:4rem 3rem;
     text-align:center;
     box-shadow:var(--shadow);
     transition:.3s;
+    min-height:280px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .certificate-card:hover{
@@ -840,19 +846,19 @@ p{
 }
 
 .certificate-card i{
-    font-size:5rem;
+    font-size:6rem;
     color:var(--primary);
     margin-bottom:2rem;
 }
 
 .certificate-card h3{
-    font-size:2rem;
-    margin-bottom:1rem;
-    line-height:1.4;
+    font-size:2.3rem;
+    line-height:1.5;
+    margin-bottom:1.5rem;
 }
 
 .certificate-card p{
-    font-size:1.6rem;
+    font-size:1.8rem;
     color:var(--text);
 }
 /* ===========================
